@@ -1138,7 +1138,7 @@ int64_t GetProofOfStakeRewardV2(int64_t nCoinAge, int64_t nFees)
 		return nSubsidy + nFees; 
 	}	
 	//Day 9
-	else ifpindexBest->nHeight > 1920)
+	else if(pindexBest->nHeight > 1920)
     {
         nSubsidy = 1000 * COIN; 
 		return nSubsidy + nFees; 
