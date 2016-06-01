@@ -1015,7 +1015,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.Ponz2
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Ponz2";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "lets-do-it-one-more-time-Charles";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
